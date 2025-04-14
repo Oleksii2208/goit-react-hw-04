@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(21, 221, 221);
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: rgb(10, 200, 255);
+  font-size: 15px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 300ms ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(43, 255, 255);
+}
+
+.input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
