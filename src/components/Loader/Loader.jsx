@@ -6,10 +6,8 @@ const Loader = () => {
   return (
     <div className={s.loader}>
       <ClipLoader
-        color="#B693C0"
-        // loading={loading}
-        // cssOverride={override}
-        size={50}
+        color="rgb(10, 200, 255)"
+        size={70}
         aria-label="Loading Spinner"
         data-testid="loader"
       />
