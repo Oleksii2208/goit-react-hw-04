@@ -93,10 +93,10 @@ const App = () => {
           <ImageGallery images={images} openModal={openModal} />
         </div>
       )}
-      {!loading && (
+      {page < totalPages && !loading && (
         <LoadMoreBtn
-          page={page}
-          totalPages={totalPages}
+          // page={page}
+          // totalPages={totalPages}
           onClick={handleLoadMore}
         />
       )}
